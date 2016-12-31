@@ -1,0 +1,1 @@
+# Verify that 2017 is the smallest number whose cube root begins with 10 distinct digits
