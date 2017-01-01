@@ -15,3 +15,6 @@ for i in range(2018):
 	result = cube_root(i)
 	if contains_all_digits(result):
 		print i, result
+
+# Output:
+# 2017 12.63480759
