@@ -11,9 +11,10 @@ def is_prime(input):
 	return True
 
 condition1 = set([31 * x + 2 for x in range(66)])
-condition2 = set([a ** 2 + 24 * b ** 2 for a in range(45) for b in range(10) if a ** 2 + 24 * b ** 2 < 2018])
+findab = {a ** 2 + 24 * b ** 2: (a, b) for a in range(45) for b in range(10) if a ** 2 + 24 * b ** 2 < 2018}
+condition2 = set(findab)
 
-print [item for item in condition1 & condition2 if is_prime(item)]
+print [(item, findab[item]) for item in condition1 & condition2 if is_prime(item)]
 
 # Output
-# [2017]
+# [(2017, (29, 7))]
