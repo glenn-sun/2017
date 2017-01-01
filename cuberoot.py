@@ -1,4 +1,4 @@
-# Verify that 2017 is the smallest number whose cube root begins with 10 distinct digits
+# Verify that 2017 is the smallest natural number whose cube root begins with 10 distinct digits
 
 from __future__ import division
 
