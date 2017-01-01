@@ -9,3 +9,7 @@ Yes, it is 12.63480759...
 #### Is 2017 the smallest natural number able to be expressed as a multi-digit palindrome in two consecutive bases?  
 No, there are 118 such natural numbers before 2017.  
 *from https://www.reddit.com/r/math/comments/5lafie/2017_is_prime/dbubmao/*
+
+#### Is 2017 the smallest prime congruent to 2 mod 31 that can be written a^2 + 24b^2 for some integers a, b?  
+Yes, with a = 29 and b = 7.  
+*from http://math.stackexchange.com/a/2077132*
